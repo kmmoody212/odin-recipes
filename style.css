@@ -3,10 +3,42 @@ body {
 
 }
 
-h1 {
-    color: orange;
+h1 { 
+    background-color: orange;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
 }
 
 a {
+    color: gray;
+}
+
+li {
+    list-style-type: none;
+}
+
+.sliders,
+.tunacakes,
+.meatballs {
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+    display: block;
+    width:fit-content;
+    padding: 10px 0px;
+    margin:20px 0px;
+}
+
+.meatballs:hover {
+    color: gray;
+}
+
+.sliders:hover {
+    color: gray;
+}
+
+.tunacakes:hover {
     color: gray;
 }
